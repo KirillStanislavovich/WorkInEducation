@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500&subset=latin,cyrillic);
+html {
+  -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  }
+
+a {
+  text-decoration: none;
+  }
+
+li {
+  list-style: none;
+  }
+  
+.body {
+  font-family: 'Ubuntu', serif;
+  font-size: 1rem;
+  background: #00f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.code-check {
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+  width: 920px;
+}
+
+.todo {
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text-editor {
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+}
+
+.wrapper {
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+}
+.date__text {
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.code-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-code__label {
+  font-size: 2rem;
+  text-align: center;
+}
+.input-code {
+  min-width: 90%;
+  min-height: 100px;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 1rem;
+  border: 1px solid #1a82dd;
+}
+.input-code__btn {
+  width: 200px;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+}
+.error {
+  border-color: red;
+  color: red;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+.todo-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  background-color: rgb(191, 193, 194);
+  padding: 10px;
+}
+.new-todo {
+  width: 100%;
+  min-height: 30px;
+  padding: 0;
+  font-size: 16px;
+}
+.add-todo {
+  padding: 5px 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: decimal-leading-zero;
+}
+.list_item {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #a09e9e;
+}
+.del-todo {
+  text-decoration: line-through;
+}
+
+.text-editor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.text-editor__text {
+  font-size: 1rem;
+  padding: 1em;
+  border: 1px solid #1f1e1e;
+  width: 75%;
+  color: #000000;
+  background-color: #ffffff;
+}
+.text-editor__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 25%;
+}
+.text-editor__button {
+  font-size: 1rem;
+  font-family: inherit;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0;
+}
+.text-editor__button:hover {
+  background-color: #cecccc;
+}
+.btn-4 {
+  margin-top: 10px;
+}
+
+.dialog__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dialog__title {
+  margin-bottom: 20px;
+}
+
+.form__input_title,.select__title {
+  font-size: 1.5rem;
+}
+
+.select__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.form__send {
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid #00f;
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin-top: 20px;
+}
+
+.form__input {
+  min-width: 40%;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.form__select {
+  font-size: 1rem;
+  width: 20%;
+}
+
+.result__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.result {
+  font-size: 2rem;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: #000000;
+}

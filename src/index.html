@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript</title>
+</head>
+<body class="body">
+  <header class="header container">
+    <div class="date">
+    </div>
+  </header>
+  <main class="main container">
+    <div class="code-wrapper code-check">
+      <label class="input-code__label" for="input">Проверка пользовательского кода</label>
+      <textarea class="input-code" name="input" id="input"></textarea>
+      <div class="button-wrapper">
+        <button class="input-code__btn" id="btn">Проверить</button>
+        <button class="input-code__btn" id="btn-clear">Сбросить</button>
+      </div>
+    </div>
+    <div class="todo">
+      <section class="todo-list">
+        <h1 class="title">Список задач</h1>
+        <ol class="list">
+        </ol>
+      </section>
+      <section class="todo-input">
+        <h1 class="title">Новая задача</h1>
+        <input type="text" class="new-todo" id="input">
+        <button class="add-todo" id="btn">Добавить задачу</button>
+      </section>
+    </div>
+    <div class="text-editor container">
+      <div class="text-editor__text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium, consequatur ea eligendi facilis 
+          minus quaerat vel vero officiis sunt tenetur! Repellat culpa numquam praesentium voluptatem rem debitis in 
+          consequatur. Nulla sequi tempora laudantium quod molestias cum quo consequuntur natus in laboriosam nihil 
+          dolorem maiores facere blanditiis odit rem consequatur, repudiandae ducimus illo ipsam maxime similique soluta 
+          libero at. Nobis, incidunt. Alias provident dolor consectetur voluptates incidunt ut laboriosam cupiditate amet 
+          dicta tempore!
+        </p>
+        <p>
+          Vel voluptatum quam dicta quae aliquam ipsa voluptatibus asperiores adipisci nulla, excepturi neque 
+          repellendus labore at doloremque, nisi aliquid distinctio quis in sit. Illum eum incidunt inventore exercitationem 
+          consequatur officiis nemo hic? Dolorum eos enim maiores sunt libero eligendi nam placeat nihil voluptatem non alias 
+          vitae, voluptates porro quam omnis hic cupiditate accusantium neque similique. Unde nesciunt laboriosam, quo quis, 
+          dolore perspiciatis inventore, aliquam quam obcaecati architecto veniam fuga quasi vel tenetur assumenda impedit 
+          neque placeat libero ullam commodi? Error quam earum, minima molestiae praesentium nobis iste totam architecto ea 
+          assumenda consequatur harum! Facilis pariatur eum, voluptas totam, at accusamus consectetur harum autem quibusdam 
+          dolorem, alias enim sequi iste eligendi dolores ipsum laborum vel cupiditate adipisci sed laboriosam neque porro 
+          deleniti? Debitis impedit quidem eveniet eum nobis!
+        </p>
+      </div>
+      <div class="text-editor__buttons">
+        <button class="text-editor__button btn-1">Редактировать</button>
+        <button class="text-editor__button btn-2" disabled>Сохранить</button>
+        <button class="text-editor__button btn-3" disabled>Отмена</button>
+        <label class="select-name" for="get-version">История изменений</label>
+        <select class="select" name="get-version" id="select">
+        </select>
+        <button class="text-editor__button btn-4">Перейти</button>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="dialog__container">
+        <h1 class="dialog__title">Переводчик Яндекс.API</h1>
+        <div class="form__wrapper">
+          <form class="form">
+            <label for="text" class="form__input_title">Введите исходный текст</label>
+            <input type="text" class="form__input" name="text">
+          </form>
+          <div class="select__wrapper">
+            <label for="form__select" class="select__title">Выберите исходный язык</label>
+            <select name="form__select" id="firstLang" class="form__select">
+              <option value="ru">Русский</option>
+              <option value="en">Английский</option>
+              <option value="de">Немецкий</option>
+            </select>
+          </div>
+          <div class="select__wrapper">
+            <label for="form__select" class="select__title">Выберите язык перевода</label>
+            <select name="form__select" id="secondLang" class="form__select">
+              <option value="en">Английский</option>
+              <option value="ru">Русский</option>
+              <option value="de">Немецкий</option>
+            </select>
+          </div>
+          <button class="form__send">Перевести</button>
+        </div>
+        <div class="result__wrapper">
+          <h2 class="result__title">Результат</h2>
+          <p class="result"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</html>

@@ -1,0 +1,34 @@
+
+.text-editor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.text-editor__text {
+  font-size: 1rem;
+  padding: 1em;
+  border: 1px solid #1f1e1e;
+  width: 75%;
+  color: #000000;
+  background-color: #ffffff;
+}
+.text-editor__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 25%;
+}
+.text-editor__button {
+  font-size: 1rem;
+  font-family: inherit;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0;
+}
+.text-editor__button:hover {
+  background-color: #cecccc;
+}
+.btn-4 {
+  margin-top: 10px;
+}
